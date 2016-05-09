@@ -1,0 +1,64 @@
+ <!--Declaration of html 5--> 
+ <!DOCTYPE html> 
+ <!--Starting head tag--> 
+ <html>  
+ 	
+ 	<!--Starting of head-->  
+ 	<head>   
+ 		<title>Calculator</title>   
+ 		<style type="text/css">    
+ 			table    
+ 			{     
+ 				background-color:#ffcccc;    
+ 			}  
+  		</style>  
+  	</head>  
+ 	
+ 	<!--Starting of body-->  
+ 	<body>   
+ 		<form name="Calc">    
+
+ 			<table border="5">     
+
+ 				<tr>      
+ 					<td>       
+ 						<input type="text" name="Input" size="10">       
+ 						<br>      
+ 					</td>     
+ 				</tr>     
+
+ 				<tr>      
+
+ 					<td> 
+ 						<input type="button" name="1" value="1" OnClick="Calc.Input.value += '1'"> 
+ 						<input type="button" name="2" value="2" OnCLick="Calc.Input.value += '2'"> 
+ 						<input type="button" name="3" value="3" OnClick="Calc.Input.value += '3'"> 
+ 						<input type="button" name="+" value="+" OnClick="Calc.Input.value += ' + '">             
+
+ 						<br>  
+						
+						<input type="button" name="4" value="4" OnClick="Calc.Input.value += '4'"> 
+						<input type="button" name="5" value="5" OnCLick="Calc.Input.value += '5'"> 
+						<input type="button" name="6" value="6" OnClick="Calc.Input.value += '6'"> 
+						<input type="button" name="-" value="-" OnClick="Calc.Input.value += ' - '">              
+
+						<br>       
+						<input type="button" name="7" value="7" OnClick="Calc.Input.value += '7'"> 
+						<input type="button" name="8" value="8" OnCLick="Calc.Input.value += '8'"> 
+						<input type="button" name="9" value="9" OnClick="Calc.Input.value += '9'"> 
+						<input type="button" name="*" value="x" OnClick="Calc.Input.value += ' * '">             
+
+						<br>       
+
+						<input type="button" name="clear" value="c" OnClick="Calc.Input.value = ''"> 
+						<input type="button" name="0" value="0" OnClick="Calc.Input.value += '0'"> 
+						<input type="button" name="="  value="=" OnClick="Calc.Input.value = eval(Calc.Input.value)"> 
+						<input type="button" name="/" value="/" OnClick="Calc.Input.value += ' / '">              
+
+						<br>     
+					</td>     
+				</tr>    
+			</table>   
+		</form>    
+	</body>  
+</html> 
